@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build artifacts & distribution packages
+*.zip
+*.tar.gz
+*.tgz
+dist/
+build/
+out/
+
+# Environment and secrets
+.env
+*.env.local
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+tmp/
+temp/
+.DS_Store
+Thumbs.db
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

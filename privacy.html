@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - BookmarkPanels</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --card-bg: rgba(255, 255, 255, 0.05);
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --accent: #a8d8ea;
+      --border: rgba(255, 255, 255, 0.12);
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f6f8fa;
+        --card-bg: #ffffff;
+        --text: #1f2328;
+        --text-muted: #656d76;
+        --accent: #0969da;
+        --border: rgba(0, 0, 0, 0.12);
+      }
+    }
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 36px 40px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+    }
+    h1 { margin-top: 0; color: var(--accent); font-size: 26px; }
+    h2 { font-size: 18px; margin-top: 28px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+    p, li { font-size: 14.5px; }
+    ul { padding-left: 22px; }
+    .badge {
+      display: inline-block;
+      background: rgba(168, 216, 234, 0.18);
+      color: var(--accent);
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .footer {
+      margin-top: 36px;
+      font-size: 12px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      padding-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy for BookmarkPanels</h1>
+    <p><span class="badge">Last Updated: September 2026</span></p>
+
+    <p>BookmarkPanels ("we", "our", or "the extension") is a lightweight bookmark organization tool for Google Chrome. This Privacy Policy outlines our data handling practices.</p>
+
+    <h2>1. Zero Personal Data Collection</h2>
+    <p>BookmarkPanels does <strong>not</strong> collect, harvest, monitor, sell, or transmit any personal information, accounts, browsing activity, or keystrokes.</p>
+
+    <h2>2. Local Storage Architecture</h2>
+    <p>All user data is stored strictly on your local device:</p>
+    <ul>
+      <li><strong>Bookmarks & Categories:</strong> Stored locally using Chrome's native <code>chrome.storage.local</code> API and synchronized with your local Chrome bookmarks tree via <code>chrome.bookmarks</code>.</li>
+      <li><strong>User Preferences:</strong> Theme settings (Dark/Light), panel coordinates, brightness, and frost blur are stored exclusively on your device.</li>
+      <li><strong>No Remote Database:</strong> We do not operate external database servers, tracking services, or cloud infrastructure.</li>
+    </ul>
+
+    <h2>3. Third-Party Icon (Favicon) Retrieval</h2>
+    <p>To display visual site icons next to your bookmarks, the extension fetches standard favicon assets by querying domain hostnames via Google's public favicon service (<code>www.google.com/s2/favicons</code>) or DuckDuckGo. No personal identifiers, cookies, account tokens, or full URLs with query parameters are sent in these requests.</p>
+
+    <h2>4. Permissions Used</h2>
+    <ul>
+      <li><code>bookmarks</code>: Required to read, organize, and edit bookmarks locally.</li>
+      <li><code>storage</code>: Required to save your categories and visual preferences locally.</li>
+      <li><code>contextMenus</code>: Allows right-clicking a webpage to quickly add it to your bookmarks.</li>
+      <li><code>activeTab</code>: Grants temporary access to the current active tab only when you explicitly invoke the extension.</li>
+      <li>Host Access (<code>&lt;all_urls&gt;</code>): Allows the floating bookmark overlay to be toggled on web pages when you press <kbd>Alt+B</kbd>.</li>
+    </ul>
+
+    <div class="footer">
+      BookmarkPanels &bull; Open-source extension &bull; Contact via the official GitHub repository.
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BookmarkPanels Popup</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <div class="header-left">
+      <h2>BookmarkPanels</h2>
+      <button id="toggleOverlayBtn" class="overlay-toggle" title="Toggle Overlay">Overlay: ON</button>
+    </div>
+    <button id="openDashboardBtn" title="Dashboard">↗</button>
+  </div>
+  
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search bookmarks..." autocomplete="off" title="Filter">
+  </div>
+  
+  <div class="quick-add">
+    <select id="categorySelect" title="Category"></select>
+    <button id="addCurrentBtn" class="primary-btn" title="Add Tab">Add Current Tab</button>
+  </div>
+  
+  <div id="categoryList" class="category-list"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
