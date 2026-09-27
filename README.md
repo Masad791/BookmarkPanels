@@ -4,6 +4,7 @@ A modern, glassmorphic Chrome extension that organizes your bookmarks into custo
 
 ---
 
+
 ## 📸 Preview
 
 ### Floating Cards & Slide-in Glass Sidebar
@@ -13,6 +14,7 @@ A modern, glassmorphic Chrome extension that organizes your bookmarks into custo
 ![BookmarkPanels Actions Menu](screenshot-menu.png)
 
 ---
+
 
 ## ✨ What BookmarkPanels Does
 
@@ -34,7 +36,7 @@ A modern, glassmorphic Chrome extension that organizes your bookmarks into custo
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/BookmarkPanels.git
+   git clone https://github.com/Masad791/BookmarkPanels.git
    ```
 2. Open Google Chrome and navigate to:
    ```
