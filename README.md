@@ -6,8 +6,11 @@ A modern, glassmorphic Chrome extension that organizes your bookmarks into custo
 
 ## 📸 Preview
 
-![BookmarkPanels Screenshot](screenshot.png)
-> *Tip: Replace `screenshot.png` with a capture of your custom setup!*
+### Floating Cards & Slide-in Glass Sidebar
+![BookmarkPanels Overview](screenshot-overview.png)
+
+### Category Actions & Context Menus
+![BookmarkPanels Actions Menu](screenshot-menu.png)
 
 ---
 
