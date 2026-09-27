@@ -4,12 +4,6 @@ A modern, glassmorphic Chrome extension that organizes your bookmarks into custo
 
 ---
 
-## 📸 Preview
-
-![BookmarkPanels Screenshot](screenshot.png)
-> *Tip: Replace `screenshot.png` with a capture of your custom setup!*
-
----
 
 ## ✨ What BookmarkPanels Does
 
@@ -31,7 +25,7 @@ A modern, glassmorphic Chrome extension that organizes your bookmarks into custo
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/BookmarkPanels.git
+   git clone https://github.com/Masad791/BookmarkPanels.git
    ```
 2. Open Google Chrome and navigate to:
    ```
