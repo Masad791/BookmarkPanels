@@ -7,8 +7,6 @@
 **Your bookmarks as floating glass panels on any website. Press `Alt+B` and they're there.**
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gjpdnmblolkpcmnobbljeneeagfmiohf?label=Chrome%20Web%20Store&logo=googlechrome&logoColor=white&color=1f5fd1)](https://chromewebstore.google.com/detail/bookmarkpanels/gjpdnmblolkpcmnobbljeneeagfmiohf)
-[![Users](https://img.shields.io/chrome-web-store/users/gjpdnmblolkpcmnobbljeneeagfmiohf?color=1f5fd1)](https://chromewebstore.google.com/detail/bookmarkpanels/gjpdnmblolkpcmnobbljeneeagfmiohf)
-[![Rating](https://img.shields.io/chrome-web-store/rating/gjpdnmblolkpcmnobbljeneeagfmiohf?color=1f5fd1)](https://chromewebstore.google.com/detail/bookmarkpanels/gjpdnmblolkpcmnobbljeneeagfmiohf/reviews)
 [![License: MIT](https://img.shields.io/badge/license-MIT-1f5fd1)](LICENSE)
 ![Manifest V3](https://img.shields.io/badge/Manifest-V3-1f5fd1)
 
