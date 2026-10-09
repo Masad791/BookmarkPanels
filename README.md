@@ -97,7 +97,7 @@ Your bookmarks and settings never leave your browser. To show website icons, the
 
 Bug reports and ideas are welcome. Please [open an issue](https://github.com/Masad791/BookmarkPanels/issues). Pull requests are welcome too; for bigger changes, open an issue first so we can talk it through.
 
-If you find it useful, a ⭐ here or a [review on the store](https://chromewebstore.google.com/detail/bookmarkpanels/gjpdnmblolkpcmnobbljeneeagfmiohf/reviews) helps a lot.
+If you find it useful, a ⭐ here or a [review on the store](https://chromewebstore.google.com/detail/bookmarkpanels/gjpdnmblolkpcmnobbljeneeagfmiohf) helps a lot.
 
 ## License
 
