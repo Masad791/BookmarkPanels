@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "BookmarkPanels",
-  "version": "1.1.0",
-  "description": "A beautiful, customizable frosted glass bookmark manager overlay with floating notes and sidebar.",
+  "version": "1.1.1",
+  "description": "Keep your bookmarks in floating glass panels and a slide-in sidebar on any page. Press Alt+B to open. Stored locally.",
   "permissions": [
     "bookmarks",
     "storage",

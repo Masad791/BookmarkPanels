@@ -1,7 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <rect width="128" height="128" rx="24" fill="#1e1e1e"/>
-  <rect x="24" y="24" width="36" height="36" rx="8" fill="#4a90e2"/>
-  <rect x="68" y="24" width="36" height="36" rx="8" fill="#e74c3c"/>
-  <rect x="24" y="68" width="36" height="36" rx="8" fill="#2ecc71"/>
-  <rect x="68" y="68" width="36" height="36" rx="8" fill="#f1c40f"/>
+  <defs>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#2f6fd6"/>
+      <stop offset="1" stop-color="#0b2f73"/>
+    </linearGradient>
+    <linearGradient id="disc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef2f9"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="63" fill="url(#disc)" stroke="#d5dceb" stroke-width="2"/>
+  <path d="M40 26h48a6 6 0 0 1 6 6v68l-30-18-30 18V32a6 6 0 0 1 6-6z" fill="url(#ribbon)"/>
+  <path d="M40 26h48a6 6 0 0 1 6 6v6H34v-6a6 6 0 0 1 6-6z" fill="#ffffff" opacity=".14"/>
 </svg>

@@ -1009,7 +1009,7 @@
   root.className = 'bp-root';
   shadow.appendChild(root);
 
-  root.insertAdjacentHTML('beforeend', `<div class="bp-edge-tab" data-action="toggle-sidebar" title="Sidebar (Ctrl+B / Alt+B)">\u2630</div>`);
+  root.insertAdjacentHTML('beforeend', `<div class="bp-edge-tab" data-action="toggle-sidebar" title="Sidebar (Alt+B)">\u2630</div>`);
 
   root.insertAdjacentHTML('beforeend', `<div class="bp-backdrop" data-action="close-sidebar" title="Close"></div>`);
 
@@ -1111,7 +1111,7 @@
         </div>
       </div>
 
-      <div class="bp-sb-footer">Press <kbd>Ctrl+B</kbd> or <kbd>Alt+B</kbd> to toggle</div>
+      <div class="bp-sb-footer">Press <kbd>Alt+B</kbd> to toggle</div>
     </div>
   `);
 
@@ -1221,10 +1221,11 @@
       if (host && !img.dataset.fallbackTried) {
         img.dataset.fallbackTried = 'true';
         img.src = `https://icons.duckduckgo.com/ip3/${encodeURIComponent(host)}.ico`;
-      } else {
+      } else if (!img.dataset.fallbackDone) {
+        img.dataset.fallbackDone = 'true';
         img.src = getFallbackIcon();
       }
-    }, { once: true });
+    });
   }
 
   function faviconUrl(url) {
@@ -2469,9 +2470,7 @@
     }
     const isInput = e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.isContentEditable);
     if (!isInput) {
-      if ((e.ctrlKey && !e.shiftKey && e.key.toLowerCase() === 'b') || 
-          (e.altKey && e.key.toLowerCase() === 'b') || 
-          (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'b')) {
+      if (e.altKey && !e.ctrlKey && !e.metaKey && e.key.toLowerCase() === 'b') {
         e.preventDefault();
         toggleSidebar();
       }
